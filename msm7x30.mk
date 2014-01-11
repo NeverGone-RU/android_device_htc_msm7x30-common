@@ -118,7 +118,6 @@ PRODUCT_AAPT_PREF_CONFIG := hdpi
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.bq.gpu_to_cpu_unsupported=1 \
     debug.composition.type=gpu \
     debug.sf.hw=1 \
     debug.egl.hw=1
