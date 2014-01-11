@@ -35,11 +35,10 @@ TARGET_USERIMAGES_USE_EXT4 := true
 # Recovery
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TARGET_RECOVERY_FSTAB := device/htc/msm7x30-common/rootdir/fstab.msm7x30
-BOARD_CUSTOM_GRAPHICS := ../../../device/htc/msm7x30-common/recovery/graphics.c
+RECOVERY_FSTAB_VERSION := 2
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_10x18.h\"
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/class/android_usb/android0/f_mass_storage/lun0/file"
 BOARD_HAS_NO_SELECT_BUTTON := true
-USE_SET_METADATA := false
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/htc/msm7x30-3.0
